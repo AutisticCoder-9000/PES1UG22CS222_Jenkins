@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
         stage('Build') {
-            steps {
+            shteps {
                 sh 'g++ hello.cpp -o hello_exec'
             }
         }
